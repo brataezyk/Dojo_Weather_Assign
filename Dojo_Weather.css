@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+#container {
+    width: 800px;
+    height: 600px;
+}
+#topbar {
+    width: 800px;
+    height: 70px;
+    background-color: rgb(163, 195, 255);
+    padding: 0px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+#topbar h1 {
+    font-size: 40px;
+}
+#cities-box {
+    width: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 0px 30px 0px 0px;
+}
+#main-info-box {
+    width: 800px; 
+    height: 440px;
+    padding: 0px 120px;
+}
+#weather-header {
+    width: 800px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+#weather-header h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+#header-rightside-box {
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+select {
+    width: 55px;
+    height: 35px;
+    font-size: 18px;
+}
+#daily-weather-box {
+    width: 800px;
+    height: 332px;
+    margin: 25px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.day-info-box {
+    width: 180px;
+    height: 332px;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+}
+.day-info-box h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 10px 0px 0px 0px;
+}
+.day-info-box img {
+    width: 140px;
+    border-radius: 50%;
+    margin: 15px 0px 0px 0px;
+}
+.weather-note {
+    font-size: 20px;
+    margin: 15px 0px 0px 0px;
+}
+.high-low-temp {
+    display: flex;
+    justify-content: ;
+    margin: 25px 25px 0px 25px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#red24, #red27, #red21, #red26 {
+    color:firebrick;
+}
+.degRed {
+    color:firebrick;
+    margin: 0px 45px 0px 0px;
+
+}
+#blue18, #blue19, #blue16, #blue21 {
+    color: dodgerblue;
+}
+.degBlue {
+    color: dodgerblue;
+}
+#cookie-box {
+    width: 796px;
+    height: 130px;
+    display: flex;
+    margin: 0px 120px;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    border: 3px solid black;
+    position: fixed;
+}
+#cookie-box img {
+    width: 80px;
+    margin: 0px 25px 0px 25px;
+}
+
+#cookie-center-text h4 {
+    font-size: 25px;
+}
+#cookie-center-text p {
+    font-size: 18px;
+}
+#cookie-box button {
+    width: 105px;
+    height: 35px;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px 0px black;
+    background-color: rgb(170, 185, 235);
+    color: black;
+    margin: 0px 0px 0px 60px;
+}
+a {
+    color: rgb(0, 132, 255);
+}
+
+
+
+
+
+

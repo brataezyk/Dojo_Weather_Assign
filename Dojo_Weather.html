@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="/Users/brandtrataezyk/Desktop/VS_Coding_Files/Basic_html_css_js/Assignments/Dojo_Weather_Assign/Dojo_Weather.css">
+</head>
+<body>
+    <div id="container">
+        <div id="topbar">
+            <h1>DojoWeather Hello</h1>
+            <div id="cities-box">
+                <p onclick="cities(this)">Burbank</p>
+                <p onclick="cities(this)">Chicago</p>
+                <p onclick="cities(this)">Dallas</p>
+            </div>
+        </div>
+        <div id="main-info-box">
+            <div id="weather-header">
+                <h2>San Jose</h2>
+                <div id="header-rightside-box">
+                    <p>show temperature in</p>
+                    <select name="degrees" id="F-C" onchange="conversionFtoC(this, '#red24', '#blue18', '#red27', '#blue19', '#red21', '#blue16', '#red26', '#blue21')" onchange="stayFah(this, '#red24', '#blue18', '#red27', '#blue19', '#red21', '#blue16', '#red26', '#blue21')">
+                        <option id="celsius">°F</option>
+                        <option id="fahrenheit">°C</option>
+                    </select>
+                </div>
+            </div>
+            <div id="daily-weather-box">
+                <div class="day-info-box">
+                    <h3>Today</h3>
+                    <img src="/Users/brandtrataezyk/Desktop/VS_Coding_Files/Basic_html_css_js/Assignments/Dojo_Weather_Assign/assets/some_rain.png" alt="Rainy Cloud Image">
+                    <p class="weather-note">some rain</p>
+                    <div class="high-low-temp">
+                        <p class="degRed"><span id="red24">24</span>°</p>
+                        <p class="degBlue"><span id="blue18">18</span>°</p>
+                    </div>
+                </div>
+                <div class="day-info-box">
+                    <h3>Tomorrow</h3>
+                    <img src="/Users/brandtrataezyk/Desktop/VS_Coding_Files/Basic_html_css_js/Assignments/Dojo_Weather_Assign/assets/some_sun.png" alt="Sun Image">
+                    <p class="weather-note">some sun</p>
+                    <div class="high-low-temp">
+                        <p class="degRed"><span id="red27">27</span>°</p>
+                        <p class="degBlue"><span id="blue19">19</span>°</p>
+                    </div>
+                </div>
+                <div class="day-info-box">
+                    <h3>Friday</h3>
+                    <img src="/Users/brandtrataezyk/Desktop/VS_Coding_Files/Basic_html_css_js/Assignments/Dojo_Weather_Assign/assets/some_clouds.png" alt="Cloud Image">
+                    <p class="weather-note">some clouds</p>
+                    <div class="high-low-temp">
+                        <p class="degRed"><span id="red21">21</span>°</p>
+                        <p class="degBlue"><span id="blue16">16</span>°</p>
+                    </div>
+                </div>
+                <div class="day-info-box">
+                    <h3>Saturday</h3>
+                    <img src="/Users/brandtrataezyk/Desktop/VS_Coding_Files/Basic_html_css_js/Assignments/Dojo_Weather_Assign/assets/some_sun.png" alt="Sun Image">
+                    <p class="weather-note">some sun</p>
+                    <div class="high-low-temp">
+                        <p class="degRed"><span id="red26">26</span>°</p>
+                        <p class="degBlue"><span id="blue21">21</span>°</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cookie-box">
+            <img src="/Users/brandtrataezyk/Desktop/VS_Coding_Files/Basic_html_css_js/Assignments/Dojo_Weather_Assign/assets/cookie.png" alt="Cookie Icon Image">
+            <div id="cookie-center-text">
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not the edible ones) to personalize</p>
+                <p>content and ads, to provide social media features and to</p>
+                <p>analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button onclick="acceptCookie('#cookie-box')">I Accept</button>
+        </div>
+    </div>
+<script src="Dojo_Weather.js"></script>
+</body>
+</html>
